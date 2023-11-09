@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bangladesh Awami League</title>
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <!--=============== Bootstrap ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/#[[latestVersion]]#/mdb.min.css" rel="stylesheet" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/signup.css">
+
+</head>
+
+<body>
+    <!--=============== HEADER ===============-->
+    <header class="header ">
+        <nav class="nav container">
+            <div class="nav__data">
+                <a href="index.html" class="nav__logo">
+                    <img src="./assets/image/logo.jpg" alt="Logo">
+                </a>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="ri-menu-line nav__burger"></i>
+                    <i class="ri-close-line nav__close"></i>
+                </div>
+            </div>
+
+            <!--=============== NAV MENU ===============-->
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li><a href="#" class="nav__link">হোম </a></li>
+
+                    <li><a href="#" class="nav__link">আওমীলীগ ইতিহাস</a></li>
+
+                    <!--=============== DROPDOWN 1 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            ছাত্রলীগ <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-pie-chart-line"></i> বাংলাদেশ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-arrow-up-down-line"></i> বাংলাদেশ
+                                </a>
+                            </li>
+
+                            <!--=============== DROPDOWN SUBMENU ===============-->
+                            <li class="dropdown__subitem">
+                                <div class="dropdown__link">
+                                    <i class="ri-bar-chart-line"></i> বাংলাদেশ <i class="ri-add-line dropdown__add"></i>
+                                </div>
+
+                                <ul class="dropdown__submenu">
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-file-list-line"></i> বাংলাদেশ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-cash-line"></i> বাংলাদেশ
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="#" class="dropdown__sublink">
+                                            <i class="ri-refund-2-line"></i> বাংলাদেশ
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">নির্বাচন</a></li>
+
+                    <!--=============== DROPDOWN 2 ===============-->
+                    <li class="dropdown__item">
+                        <div class="nav__link">
+                            <i class="ri-user-settings-line"></i> <span id="profile">প্রোফাইল</span> <i
+                                class="ri-arrow-down-s-line dropdown__arrow"></i>
+                        </div>
+
+                        <ul class="dropdown__menu">
+                            <li>
+                                <a href="signup.html" class="dropdown__link">
+                                    <i class="ri-user-line"></i> সাইন আপ
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="login.html" class="dropdown__link">
+                                    <i class="ri-login-box-line"></i>লগইন
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="dropdown__link">
+                                    <i class="ri-login-circle-line"></i>এডমিন লগইন
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#" class="nav__link">যোগাযোগ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <section class="registration_form_section">
+        <div class="row">
+            <div class="col-sm-12 col-md-6 mx-auto">
+                <form class="registration-form" action="">
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="firstname" placeholder="First Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="lastname" placeholder="Last Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" class="form-control item" id="password" placeholder="Password" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control item" id="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="phone-number" placeholder="Phone Number"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control item" id="birth-date" placeholder="NID Number" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-block create-account w-100">Create Account</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Site footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <a href="index.html" class="nav__logo">
+                        <img src="./assets/image/logo.jpg" alt="Logo">
+                    </a>
+                    <p class="text-justify pt-3">আওয়ামী লীগ বাংলাদেশের একটি রাজনৈতিক দল। এটি বাংলাদেশের স্বাধীনতা
+                        সংগ্রামে
+                        নেতৃত্বদানকারী দলগুলোর মধ্যে অন্যতম। ১৯৪৯ সালের ২৩ জুন ঢাকার রেসকোর্স ময়দানে অনুষ্ঠিত এক
+                        সভায়
+                        আওয়ামী লীগ প্রতিষ্ঠিত হয়। দলটির প্রতিষ্ঠাতা সভাপতি ছিলেন শেখ মুজিবুর রহমান।
+                        আওয়ামী লীগ বাংলাদেশের স্বাধীনতা যুদ্ধে গুরুত্বপূর্ণ ভূমিকা পালন করে। ১৯৭১ সালের ২৫ মার্চ
+                        পাকিস্তানি
+                        বাহিনীর গণহত্যা শুরু হলে আওয়ামী লীগের নেতৃত্বে বাংলাদেশের জনগণ স্বাধীনতা যুদ্ধে ঝাঁপিয়ে
+                        পড়ে।
+                        ১৯৭১
+                        সালের ১৬ ডিসেম্বর পাকিস্তানি বাহিনীর আত্মসমর্পণের মধ্য দিয়ে বাংলাদেশ স্বাধীনতা লাভ করে।
+                        স্বাধীনতার পর আওয়ামী লীগ ১৯৭২ থেকে ১৯৭৫ সাল পর্যন্ত বাংলাদেশ সরকারের নেতৃত্ব দেয়। ১৯৭৫
+                        সালের
+                        ১৫
+                        আগস্ট জাতীয়তাবাদী শক্তির হাতে শেখ মুজিবুর রহমানের হত্যার পর আওয়ামী লীগকে দীর্ঘদিন
+                        আন্দোলন-সংগ্রামে
+                        অবতীর্ণ হতে হয়। ১৯৯৬ সালের নির্বাচনে আওয়ামী লীগ জয়লাভ করে সরকার গঠন করে। এরপর ২০০৮, ২০১৪
+                        এবং
+                        ২০১৮
+                        সালের নির্বাচনেও আওয়ামী লীগ জয়লাভ করে সরকার গঠন করে।
+                        আওয়ামী লীগের মূল আদর্শ হলো সমাজতন্ত্র। দলটির লক্ষ্য হলো একটি গণতান্ত্রিক, প্রগতিশীল ও
+                        সমৃদ্ধ
+                        বাংলাদেশ
+                        গড়ে তোলা। আওয়ামী লীগের বর্তমান সভাপতি ও প্রধানমন্ত্রী হলেন শেখ হাসিনা।
+                        আওয়ামী লীগ বাংলাদেশের অন্যতম বৃহৎ রাজনৈতিক দল। দলটির জনপ্রিয়তা ব্যাপক। আওয়ামী লীগের
+                        নেতৃত্বে
+                        বাংলাদেশ অনেক উন্নতি করেছে। দলটি বাংলাদেশের উন্নয়নের অগ্রযাত্রা অব্যাহত রাখতে
+                        প্রতিশ্রুতিবদ্ধ।
+                    </p>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+
+                    <ul class="footer-links pt-5">
+                        <h4>সকল লিংক</h4>
+                        <li><a href="#">হোম</a></li>
+                        <li><a href="#">আওমীলীগ ইতিহাস</a></li>
+                        <li><a href="#"> ছাত্রলীগ</a></li>
+                        <li><a href="#">লিংক </a></li>
+                        <li><a href="#">লিংক</a></li>
+                        <li><a href="#">লিংক</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-xs-6 col-md-3">
+
+                    <ul class="footer-links pt-5">
+                        <h4>সকল পেজ </h4>
+                        <li><a href="#">লিংক</a></li>
+                        <li><a href="#">লিংক</a></li>
+                        <li><a href="#">লিংক</a></li>
+                        <li><a href="#">লিংক</a></li>
+                        <li><a href="#">লিংক</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-6 col-xs-12">
+                    <p class="copyright-text">Copyright &copy; 2024 All Rights Reserved by
+                        <a href="#">Bangladesh Awami League</a>.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- MDB -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/#[[latestVersion]]#/mdb.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
